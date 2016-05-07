@@ -1,6 +1,8 @@
 # smokehouse-test
 Javascript application
 
+Technologies used: HTML5, SASS, pure Javascript, bootstrap for styling.
+
 Steps to run
 
 1. Clone the repository in your machine.
