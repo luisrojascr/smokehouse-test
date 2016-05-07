@@ -1,0 +1,69 @@
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+::selection {
+
+}
+
+::-moz-selection {
+
+}
+
+.error {
+	color: red;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+.product{
+	background: $light_grey;
+	padding: 3%;
+	margin-bottom: 2%;
+	border: 1px solid $grey;
+	overflow: hidden;
+	.title{
+		font-family: cursive;
+	    font-size: 18px;
+	    font-weight: bold;
+	}
+	p{
+		width: 75%;
+	    float: left;
+		margin-bottom: 15px;
+	}
+	span{
+		clear: both;
+		display: block;
+	}
+	.add-btn{
+		width: 10%;
+		display: block;
+		float: right;
+		margin-right: 5%;
+	}
+	.modifiers{
+		clear: both;
+		margin-top: 20px;
+		input{
+			margin-right: 5px;
+			margin-left: 15px;
+		}
+	}
+}//end .product
+
+#checkout{
+	display: none;
+	margin-top: 35px;
+	label{
+		margin-right: 8px;
+	}
+	#placeOrder{
+		margin: 20px 0 10px;
+	}
+}//end checkout
